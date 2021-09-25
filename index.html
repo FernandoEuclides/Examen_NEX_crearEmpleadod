@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <title>Document</title>
+    <p>Prototipo de formulario (crear/modificar)</p>
+
+    <p1>Crear empleado</p1><br><br>
+
+    <div class="box box1">
+        los campos con asteriscos (*) son obligatorios
+    </div>
+
+    <br><br>
+    <link rel="stylesheet" type="text/css" href="indi.css" />
+</head>
+
+<body>
+    <html>
+
+    <body>
+        <div class="form">
+            <form action="grabar.php" method="post"></form>"
+
+            Nombre Completo * <input type="text" name="Nombre completo"><br><br>
+            Correo Electrónico * <input type="text" name="Correo electronico"><br><br>
+
+            <label>Sexo *
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="Masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label><br><br>
+            </label>
+
+            <label for="area">Área * </label>
+            <SELECT NAME="selCombo" SIZE=1 onChange="javascript:alert('prueba');">
+                <OPTION VALUE="link pagina 1">opcion1</OPTION>
+                <OPTION VALUE="link pagina 2">opcion2</OPTION>
+                <OPTION VALUE="link pagina 3">opcion3</OPTION>
+                <OPTION VALUE="link pagina 4">opcion4</OPTION>
+            </SELECT>
+            <br><br>
+
+            <label for="Descripción">Descripción *</label><br>
+            <textarea id="Descripción" name="Descripción" rows="2" cols="30">
+            </textarea><br><br>
+
+            <!--Esto es un comentario-->
+            <input type="checkbox" id="boletin" name="nota" value="boletín">
+            <label for="boletin">Deseo recibir boletín informativo</label><br><br>
+
+            <label>Roles *</label><br>
+            <input type="checkbox" id="profesional" name="rol" value="profesional">
+            <label for="java">Profesional de proyectos - Desarrollador</label><br>
+            <input type="checkbox" id="gerente" name="rol" value="gerente">
+            <label for="gerente">Gerente estratégico</label><br>
+            <input type="checkbox" id="auxiliar" name="rol" value="auxiliar">
+            <label for="gerente">Auxiliar administrativo</label><br><br>
+            <input type="submit" value="Guardar">
+            </form>
+        </div>
+    </body>
+
+    </html>
+</body>
+
+</html>
